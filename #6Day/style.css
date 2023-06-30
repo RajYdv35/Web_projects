@@ -1,0 +1,220 @@
+body{
+    margin: 0px;
+}
+nav {
+    display: flex;
+    height: 5vmax;
+    box-shadow : 0 0 5px rgba(0, 0, 0, 0.504);
+}
+.left {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 20%;
+}
+.left>h2 {
+    cursor: pointer;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: rgb(69, 114, 0);
+    font-size: 4vmax;
+}
+.left>h2>span{
+    font-family: 'Rubik Pixels', cursive;
+    color: crimson;
+}
+.mid {
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.mid>a {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    width: 100%;
+    font-size: 2vmax;
+}
+.mid>a:hover {
+    color: crimson;
+    font-size: 2.3vmax;
+    border-bottom: 2px solid crimson;
+}
+.right {
+    width: 20%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.right>img {
+    width: 2vmax;
+}
+#home {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    background-image: linear-gradient(rgba(198, 255, 255, 0.327), aqua);
+}
+#home>.homeL>h1 {
+    font-size: 4vmax;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding-top:10vmax;
+    transition: 1s;
+    padding-left: 4vmax;
+}
+
+#home>.homeL>h1:hover {
+    color: rgb(5, 241, 5);
+    text-shadow: 0 0 4px black;
+    letter-spacing: 0.5vmax;
+}
+#home>.homeL>h1>span{
+    color: rgb(241, 70, 104);
+}
+#home>.homeL>h3 {
+    font-size: 2vmax;
+    margin-top: -2vmax;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 4vmax;
+}
+#home>.homeL>p {
+    font-size: 1vmax;
+    width: 50vmax;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 4vmax;
+}
+#home>.homeR {
+    display: flex;
+    justify-content: center;
+    margin-left: 5vmax;
+}
+
+#home>.homeR>img{
+    padding: 1vmax;
+    filter: drop-shadow(0 30px 20px aqua);
+    width: 30vmax;
+    height: 80vh;
+}
+#products>h1{
+    padding: 1vmax;
+    width:20vmax;
+    font-size: 2.5vmax;
+    border-bottom: 5px solid rgb(163, 13, 43);
+    margin: 5vmax auto;
+    text-align: center;
+}
+#products>.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 100%;
+    max-width: 80vw;
+    margin: auto;
+}
+.products{
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.488);
+    width: fit-content;
+    text-align: center;
+    padding: 1vmax;
+    transition: 1s;
+    height: 30vmax;    
+}
+.products:hover {
+    transform: translateY(-10px);
+    background-color: rgb(0, 213, 255);
+}
+.products>img {
+    width: 20vmax;
+}
+.products>h3 {
+    color: green;
+    margin: 0%;
+}
+.products>h5{
+    margin-top: 0%;
+}
+footer {
+    background-color: rgb(157, 157, 157);
+    height: 40vh;
+    display: flex;
+    padding: 1vmax;
+}
+footer>.left {
+    padding: 1vmax;
+    color: rgb(0, 0, 0);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+footer>.left>p {
+    margin: 1vmax;
+    font-size: small;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+footer>.left>h4{
+    margin: 1vmax;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+footer>.left>img{
+    cursor: pointer;
+    margin: 1vmax;
+    width: 8vmax;
+}
+footer>.left>img:hover{
+    background-color: white;
+    width:9vmax;
+}
+footer>.right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+footer>.right>h4 {
+    text-decoration: underline;
+    color: black;
+    font-size: large;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+footer>.right>a {
+    text-decoration: none;
+    font-family:Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: medium;
+}
+footer>.right>a:hover {
+    color: blue;
+    font-size: large;
+    text-decoration: underline;
+}
+footer>.mid{
+    display: flex;
+    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+footer>.mid>h2 {
+    cursor: pointer;
+    margin-top: 0%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: rgb(69, 114, 0) ;
+    font-size: 4vmax;
+}
+footer>.mid>h2>span{
+    font-family: 'Rubik Pixels', cursive;
+    color: crimson;
+}
+footer>.mid>p{
+    margin-top: 0%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width:60%;
+    text-align: center;
+}

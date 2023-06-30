@@ -1,0 +1,83 @@
+body {
+    background-image: url(bg.jpg);
+    height: 600px;
+    margin: 0px;
+}
+.header {
+    padding: 10px;
+}
+.logo {
+    display: inline-block;
+    width: 31%;
+    padding:10px;
+    position: fixed;
+}
+.manubar {
+    display: inline-block;
+    width: 64%;
+    height: 66px;
+    left:400px;
+    position:fixed;
+}
+.logo>a {
+    text-decoration: none;
+    position:relative;
+    left: 30px;
+    color: antiquewhite;
+    font-size: 40px;
+}
+.manubar > a:hover {
+    color: rgb(0, 217, 255);
+}
+.manubar>a {
+    text-decoration: none;
+    position:relative;
+    top: 20px;
+    margin: 50px;
+    left: 0px;
+    color: white;
+    font-size: 20px;
+}
+h1{
+    color: crimson;
+    margin-left: 30px;
+    font-size: 80px;
+    position: relative;
+    margin-top: 150px;
+    margin-bottom:0px;
+}
+h1>span{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(20, 160, 220); 
+    font-size: 70px;
+    position: relative;
+    margin-top: 150px;
+}
+h1+h2{
+    color: rgb(255, 255, 255);
+    margin-left: 30px;
+    font-size:40px;
+    margin-top:0px;
+}
+h2>span {
+    color: rgb(255 82 82);
+}
+h4 {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    position: relative;
+    width: 350px;
+    margin-left: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+button {
+    margin-left: 40px;
+    padding: 10px;
+    background-color: crimson;
+    border: 2px solid rgb(126, 0, 25);
+    width: 150px;
+}
+button:hover {
+    background-color: rgb(45, 0, 9);
+    color: white;
+}

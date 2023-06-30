@@ -1,0 +1,20 @@
+body {
+    font:bold;
+}
+
+input,h1,h6,.su {
+    color:white;
+    background-color: black;
+}
+.custom{
+    color: chartreuse;
+    background-color: aliceblue;
+}
+ul li ol {
+    color: white;
+    background-color: black;
+}
+.actor{
+    color: red;
+    background-color: aqua;
+}
